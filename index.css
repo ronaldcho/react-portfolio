@@ -77,10 +77,6 @@ body {
   background-color: hsla(89, 43%, 51%, 0.3);
 }
 
-.jumbotron {
-  background: liner-gradient(to right, red, yellow);
-}
-
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -647,8 +643,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -10px;
-  margin-left: -0px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .no-gutters {
@@ -2727,12 +2723,12 @@ fieldset:disabled a.btn {
   background-color: #28a745;
   border-color: #28a745;
 }
+
 .btn-success:hover {
-  color: #aff;
-  background-color: #f18838;
+  color: #fff;
+  background-color: #218838;
   border-color: #1e7e34;
 }
-
 
 .btn-success.focus,
 .btn-success:focus {
@@ -6625,7 +6621,7 @@ button.bg-danger:hover {
 }
 
 .bg-light {
-  background-color: #eb9af8 !important;
+  background-color: #f8f9fa !important;
 }
 
 a.bg-light:focus,
