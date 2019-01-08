@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import api from "../utils/api";
 
 function SelectProjects ({selectedProjects, onSelect}) {
-  const topic = ['all', 'cisco', 'aci', 'sdn', 'juniper', 'arista'];
+  const topic = ['cisco', 'opensdn', 'juniper', 'vmware'];
 
   return (
     <ul className='topic'>
