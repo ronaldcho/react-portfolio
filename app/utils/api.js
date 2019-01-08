@@ -1,4 +1,5 @@
-var axios = require('axios');
+// var axios = require('axios');
+import axios from 'axios';
 
 module.exports = {
   fetchTopicRepos: function (topic) {
